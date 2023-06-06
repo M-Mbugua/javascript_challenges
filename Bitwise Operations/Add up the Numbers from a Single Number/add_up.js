@@ -1,0 +1,1 @@
+const addUp = (num) => (num * (num + 1)) / 2
