@@ -1,0 +1,5 @@
+Test.assertEquals(canNest([1, 2, 3, 4], [0, 6]), true)
+Test.assertEquals(canNest([3, 1], [4, 0]), true)
+Test.assertEquals(canNest([9, 9, 8], [8, 9, 10]), false)
+Test.assertEquals(canNest([9, 9, 8], [8, 9]), false)
+Test.assertEquals(canNest([1, 2, 3, 4], [2, 3]), false)
