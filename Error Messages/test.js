@@ -1,0 +1,6 @@
+Test.assertEquals(error(1), "Check the fan: e1")
+Test.assertEquals(error(2), "Emergency stop: e2")
+Test.assertEquals(error(3), "Pump Error: e3")
+Test.assertEquals(error(4), "c: e4")
+Test.assertEquals(error(5), "Temperature Sensor Error: e5")
+Test.assertEquals(error(-1000), 101)
