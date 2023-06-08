@@ -4,11 +4,11 @@ Promises are just objects that contain the outcome of asynchronous operations. S
 
 The promise constructor requires you to pass a function called the executor which takes two parameters, resolve and reject. Both are functions that you use to pass or reject a value that is usually the result of the async operation. Here's an example of a simple promise:
 
-let promise = new Promise( (resolve, reject) => {
-  setTimeout(( ) => {
-     resolve("edabit")
-  }, 1000)
-})
+  let promise = new Promise( (resolve, reject) => {
+    setTimeout(( ) => {
+      resolve("edabit")
+    }, 1000)
+  })
 
 setTimeout is a browser API that is very commonly used in tutorials to represent async operations. After 1000ms has passed, we call the callback function in setTimeout() and pass a string "edabit" to the resolve function.
 

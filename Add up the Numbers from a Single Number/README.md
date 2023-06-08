@@ -4,11 +4,11 @@ Create a function that takes a number as an argument. Add up all the numbers fro
 
 ##Examples
 
-addUp(4) ➞ 10
+    addUp(4) ➞ 10
 
-addUp(13) ➞ 91
+    addUp(13) ➞ 91
 
-addUp(600) ➞ 180300
+    addUp(600) ➞ 180300
 
 ##Notes
 
