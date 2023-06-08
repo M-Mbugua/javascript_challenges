@@ -1,0 +1,6 @@
+Test.assertEquals(coneVolume(3, 2), 12.57)
+Test.assertEquals(coneVolume(15, 6), 565.49)
+Test.assertEquals(coneVolume(18, 0), 0)
+Test.assertEquals(coneVolume(100, 2), 418.88)
+Test.assertEquals(coneVolume(1, 1), 1.05)
+Test.assertEquals(coneVolume(0, 30), 0)
