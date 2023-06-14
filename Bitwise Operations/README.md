@@ -1,4 +1,4 @@
-#Bitwise Operations
+# Bitwise Operations
 
 A decimal number can be represented as a sequence of bits. To illustrate:
 
@@ -15,7 +15,7 @@ From the bitwise representation of numbers, we can calculate the bitwise AND, bi
 
 Write three functions to calculate the bitwise AND, bitwise OR and bitwise XOR of two numbers.
 
-##Examples
+## Examples
 
     bitwiseAND(7, 12) ➞ 4
 
@@ -23,6 +23,6 @@ Write three functions to calculate the bitwise AND, bitwise OR and bitwise XOR o
 
     bitwiseXOR(7, 12) ➞ 11
 
-##Notes
+## Notes
 
 JavaScript has a useful function: toString(2), where you can see the binary representation of a decimal number.
